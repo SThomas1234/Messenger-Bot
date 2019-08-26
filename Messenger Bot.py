@@ -35,7 +35,7 @@ time.sleep(1)
 pyautogui.click(pyautogui.locateOnScreen(user_Name))            # Locates and clicks on the user we want to message.
 time.sleep(1)
 
-pyautogui.moveTo(572,959,duration=5)                            # Moves mouse towards text box.
+pyautogui.moveTo(572,959,duration=5)                            # Moves mouse towards text box (Coordinates may vary b/ machines).
 pyautogui.click()                                               # Clicks on text box, allowing us to type.
 
 pyautogui.write(config.msg)                                     # Types specified message to user.
